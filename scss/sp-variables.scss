@@ -1,0 +1,17 @@
+
+// Color System
+
+$moss-green:    #005f6b !default;
+
+$colors: map-merge(
+  $colors, (
+    moss-green: $moss-green
+  )
+);
+
+
+$theme-colors: map-merge(
+  $theme-colors, (
+    nav: $moss-green
+  )
+);
