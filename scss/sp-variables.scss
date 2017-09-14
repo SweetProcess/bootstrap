@@ -1,10 +1,14 @@
 
 // Color System
 
-$moss-green:    #005f6b !default;
+$blue:          #00b4cc;
+$dull-blue:     #008c9e;
+$moss-green:    #005f6b;
+
 
 $colors: map-merge(
   $colors, (
+    blue: $blue,
     moss-green: $moss-green
   )
 );
@@ -12,6 +16,29 @@ $colors: map-merge(
 
 $theme-colors: map-merge(
   $theme-colors, (
+    primary: $blue,
     nav: $moss-green
   )
 );
+
+
+
+// Options
+
+$enable-shadows:            true !default;
+$enable-gradients:          true !default;
+
+
+// Fonts
+
+$h1-font-size:            2.2rem;
+$h2-font-size:            1.8rem;
+$font-lg:                 'Lato', verdana, arial, sans-serif;
+$headings-font-family:    $font-lg;
+
+
+// Breadcrumbs
+
+$breadcrumb-bg:                 transparent;
+$breadcrumb-divider-color:      $dull-blue;
+$breadcrumb-active-color:       $dull-blue;
