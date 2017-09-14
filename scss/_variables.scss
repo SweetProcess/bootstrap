@@ -110,6 +110,9 @@ $theme-colors: (
   dark: $gray-800
 ) !default;
 
+
+@import "sp-variables";
+
 // Set a specific jump point for requesting color jumps
 $theme-color-interval: 8% !default;
 
