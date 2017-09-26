@@ -46,6 +46,7 @@ $heading-spacing: -.08rem;
 
   > div > ol {
     list-style: none;
+    counter-reset: li;
   }
 
   .step {
