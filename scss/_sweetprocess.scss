@@ -53,6 +53,7 @@ $heading-spacing: -.08rem;
     position: relative;
     margin-bottom: 2rem;
     border-bottom: 1px dotted $gray-400;
+    min-height: 4rem;
 
     .title {
       letter-spacing: $heading-spacing;
