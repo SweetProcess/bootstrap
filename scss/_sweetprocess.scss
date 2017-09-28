@@ -97,3 +97,15 @@ $heading-spacing: -.08rem;
     display: none;
   }
 }
+
+.avatar {
+  display: inline-block;
+  width: 2rem;
+  overflow: hidden;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: $white;
+  text-align: center;
+  background-color: $gray-600;
+  border-radius: 4px;
+}
