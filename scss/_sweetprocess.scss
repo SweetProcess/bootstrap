@@ -109,3 +109,10 @@ $heading-spacing: -.08rem;
   background-color: $gray-600;
   border-radius: 4px;
 }
+
+.status-alert {
+  top: 7px;
+  right: 20%;
+  left: 20%;
+  z-index: 1040;
+}
