@@ -84,9 +84,6 @@ $theme-colors: map-merge((
 ), $theme-colors);
 // stylelint-enable
 
-
-@import "sp-variables";
-
 // Set a specific jump point for requesting color jumps
 $theme-color-interval:      8% !default;
 
